@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32419341475b115469aa13f0b77e1f4d, type: 3}
+  m_Name: testBiome
+  m_EditorClassIdentifier: 
+  ID: Test
+  scale: 20.15
+  persistance: 1.95
+  lacunarity: 0.56
+  octaves: 2
+  heightMultipler: 10
+  ColorSettings:
+  - Name: Grass
+    Color: {r: 0.48860276, g: 0.7735849, b: 0.018244924, a: 0}
+    StartHeight: 0
+  - Name: Grass2
+    Color: {r: 0.2677667, g: 0.6886792, b: 0.035733357, a: 0}
+    StartHeight: 0.26
+  - Name: Stone
+    Color: {r: 0.5283019, g: 0.35230646, b: 0.09718762, a: 0}
+    StartHeight: 0.578
+  - Name: Snow
+    Color: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 0}
+    StartHeight: 0.791
